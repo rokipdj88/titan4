@@ -5,7 +5,9 @@
 ## Cara Menjalankan Script
 
 Bikin Screen terlebih dahulu
-```screen -S titan4```
+```bash
+screen -S titan4
+```
 
 Salin dan tempel perintah berikut di terminal Anda:
 
