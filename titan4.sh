@@ -3,7 +3,7 @@
 # Display logo and text
 echo "#######################################"
 echo "#                                     #"
-echo "#            M A J I K A Y O         #"
+echo "#            M A J I K A Y O          #"
 echo "#                                     #"
 echo "#######################################"
 echo "\nWelcome to the installation script!\n"
