@@ -8,7 +8,7 @@ echo "#                                     #"
 echo "#######################################"
 echo "\nWelcome to the installation script!\n"
 echo "......................................"
-echo "Buy VPS on @candraapn"
+echo "BUY VPS ALIBABA 40K DI STORE t.me/candrapn"
 echo "......................................"
 sleep 5
 
