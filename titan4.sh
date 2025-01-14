@@ -46,7 +46,7 @@ wget https://pcdn.titannet.io/test4/bin/agent-linux.zip || { echo "Failed to dow
 # Ekstrak paket ke direktori instalasi
 mkdir -p /opt/titanagent
 unzip agent-linux.zip -d /opt/titanagent || { echo "Failed to extract agent-linux.zip"; exit 1; }
-
+sleep 5
 # Navigasi ke direktori instalasi
 cd /opt/titanagent
 
@@ -61,10 +61,5 @@ while [ -z "$AGENT_KEY" ]; do
   read AGENT_KEY
 done
 
-# Jalankan agent
-./agent --working-dir=/opt/titanagent/ --server-url=https://test4-api.titannet.io --key=$AGENT_KEY > /var/log/titanagent.log 2>&1 || {
-  echo "Failed to start agent. Check /var/log/titanagent.log for details."
-  exit 1
-}
-
-echo "Agent started successfully!"
+# Jalankan agent tanpa logging
+./agent --working-dir=/opt/titanagent/ --server-url=https://test4-api.titannet.io --key=$AGENT_KEY
