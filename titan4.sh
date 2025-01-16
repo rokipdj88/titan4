@@ -8,6 +8,7 @@ fi
 
 # Colors
 RED='\033[0;31m'
+BLUE='\033[0;34m'
 NC='\033[0m'
 
 echo -e "${RED}"
@@ -18,8 +19,10 @@ echo -e ' ██║╚██╔╝██║ ██╔══██║  ██║ 
 echo -e ' ██║ ╚═╝ ██║ ██║  ██║   █████╔╝ ██║ ██║  ██╗ ██║  ██║    ██║    █████╔╝'
 echo -e ' ╚═╝     ╚═╝ ╚═╝  ╚═╝   ╚════╝  ╚═╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝    ╚═╝    ╚════╝'
 echo -e "${NC}"
-echo -e "Buy VPS 40K on Telegram Store: https://t.me/candrapn"
-echo -e "-----------------------------------------------------"
+
+echo -e "${BLUE}Join our Telegram channel: https://t.me/NTExhaust${NC}"
+echo -e "${RED}-----------------------------------------------------${NC}"
+echo -e "${BLUE}Buy VPS 40K on Telegram Store: https://t.me/candrapn${NC}"
 sleep 5
 
 # Update dan instal snapd
